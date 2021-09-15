@@ -4,7 +4,6 @@ mas = []
 for i in range(n):
     k = random.randint(0, 99)
     mas.append(k)
-
 print("Элементы списка: ", mas)
 for i in range(n):
     if (i % 7) == 0:
